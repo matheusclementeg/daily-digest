@@ -17,9 +17,9 @@ O projeto Daily Digest é uma solução automatizada desenvolvida em Python, pro
 
 O script é dividido em funções dedicadas para cada etapa do processo:
 
-Obtenção de Dados: obter_noticias() e obter_cotacao_dolar() buscam informações atualizadas da internet.
-Composição do E-mail: compor_email() organiza os dados obtidos em um formato de e-mail em HTML.
-Envio do E-mail: enviar_email(conteudo) utiliza a API do Resend para enviar o e-mail aos destinatários configurados.
+Obtenção de Dados: `obter_noticias()` e obter_cotacao_dolar() buscam informações atualizadas da internet.
+Composição do E-mail: `compor_email()` organiza os dados obtidos em um formato de e-mail em HTML.
+Envio do E-mail: `enviar_email(conteudo)` utiliza a API do Resend para enviar o e-mail aos destinatários configurados.
 Instalação e Uso
 Para utilizar o Daily Digest, você precisará de Python 3.x instalado em seu sistema e acesso à internet. Clone o repositório, instale as dependências listadas em requirements.txt e configure suas chaves de API nos locais indicados no script. Execute o script manualmente ou configure um agendador de tarefas para automação diária.
 
